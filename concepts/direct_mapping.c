@@ -14,7 +14,8 @@ int main()
     // for the ASCII value of the character
     frequency[(int) word[i]]++;
   };
-
+  // 'A' has an ASCII value of 65,
+  // so we can directly access its frequency
   printf("frequency of 'A': %d\n", frequency['A']);
 
   return 0;
